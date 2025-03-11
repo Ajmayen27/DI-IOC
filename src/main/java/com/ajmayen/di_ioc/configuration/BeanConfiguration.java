@@ -16,4 +16,6 @@ public class BeanConfiguration {
     protected Computer hpProBook(){
         return  new Computer("Hp","H1",8,256);
     }
+
+
 }
