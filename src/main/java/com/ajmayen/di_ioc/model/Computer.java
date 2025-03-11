@@ -9,6 +9,7 @@ public class Computer {
 
 
     public Computer() {
+        System.out.println("Object created");
     }
 
     public Computer(String brand, String model, int ram, int ssd) {
@@ -16,6 +17,8 @@ public class Computer {
         this.model = model;
         this.ram = ram;
         this.ssd = ssd;
+
+        System.out.println("Object created");
     }
 
 
